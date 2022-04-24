@@ -5,11 +5,13 @@
 }
 html {
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 .container {
     display: flex;
     flex-wrap: wrap;
 }
+/*device de 320 en adelante*/
 .c1, 
 .c2, 
 .c3, 
@@ -19,10 +21,10 @@ html {
 .c7 {
     width: 100%;
     min-width: 150px;
-    height: 150px;/*debe ser auto*/
+    height: auto;/*debe ser auto*/
 }
 .c1 {
-    background-color: blue;
+    /* background-color: blue; */
     order: 1;
 }
 .c2 {
@@ -49,5 +51,53 @@ html {
     background-color: green;
     order: 7;
 }
+/*adaptar imagen en c1 y textos encimas*/
+.responsive {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    z-index: 1;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.img-redonda {
+    position: absolute;
+    width: 19rem;
+    height: auto;
+    border-radius:45%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(218, 247, 166);
+    z-index: 3;
+}
+.texto-encima{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 73%;
+    left: 59%;
+    transform: translate(-73%, -62%);
+    z-index: 5;
+}
+.texto-debajo{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+/*semantica adaptada*/
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.8rem;
+}
+
 
 
