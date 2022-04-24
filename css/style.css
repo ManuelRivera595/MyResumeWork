@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.c1, 
+.c2, 
+.c3, 
+.c4, 
+.c5, 
+.c6,
+.c7 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;/*debe ser auto*/
+}
+.c1 {
+    background-color: blue;
+    order: 1;
+}
+.c2 {
+    background-color: blueviolet;
+    order: 2;
+}
+.c3 {
+    background-color: turquoise;
+    order: 3;
+}
+.c4 {
+    background-color: aqua;
+    order: 4;
+}
+.c5 {
+    background-color: cadetblue;
+    order: 5;
+}
+.c6 {
+    background-color: coral;
+    order: 6;
+}
+.c7 {
+    background-color: green;
+    order: 7;
+}
+
+
