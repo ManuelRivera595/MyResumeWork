@@ -11,9 +11,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 600px">
     <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1200px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"><!--ojo-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <main class="container">
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x">  </i>
+        </div>
+        <div class="wrapper">
+            <!-- HEADER -->
+            <header>
+                 <!-- NAV -->
+            <nav class="main-nav">
+                <i class="fa-light fa-code"></i> <!--se debe mostrar el icono-->
+                <ul class="main-menu">
+                  <li><a href="#">Office</a></li>
+                  <li><a href="#">Windows</a></li>
+                  <li><a href="#">Surface</a></li>
+                  <li><a href="#">Xbox</a></li>
+                  <li><a href="#">Deals</a></li>
+                  <li><a href="#">Support</a></li>
+                </ul>            
+              </nav>        
+            </header>
+        </div>
         <article class="c1">
             <picture class="contenedor">
                 <img src='./images/yonosoy.jpg' class='img-redonda' />
@@ -29,5 +51,10 @@
         <article class="c6"></article>
         <article class="c7"></article>    
     </main>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
+    </script>
 </body>
 </html>
