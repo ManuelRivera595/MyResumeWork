@@ -1,0 +1,64 @@
+.habilidades{
+    width: 100%;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.container{
+    width: 100%;
+    background-color: #ddd;
+}
+.skills{
+    text-align: right;
+    padding: 8px;
+    color:rgb(240, 255, 255);
+    font-weight: bold;
+}
+.skills_html{
+    background-color: rgba(219,84,90,1);
+    animation: fillhtml 2s forwards;
+}
+.skills_css{
+    background-color: rgba(219,84,90,1);
+    animation: fillcss 2s forwards;
+}
+.skills_js{
+    background-color: rgba(219,84,90,1);
+    animation: filljs 2s forwards;
+}
+.skills_sql{
+    background-color: rgba(219,84,90,1);
+    animation: fillsql 2s forwards;
+}
+.skills_python{
+    background-color: rgba(219,84,90,1);
+    animation: fillpython 2s forwards;
+}
+.skills_c{
+    background-color: rgba(219,84,90,1);
+    animation: fillc 2s forwards;
+}
+@keyframes fillhtml{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+@keyframes fillcss{
+    0%{width: 0;}
+    100%{width: 80%;}
+}
+@keyframes filljs{
+    0%{width: 0;}
+    100%{width: 15%;}
+}
+@keyframes fillsql{
+    0%{width: 0;}
+    100%{width: 25%;}
+}
+@keyframes fillpython{
+    0%{width: 0;}
+    100%{width: 45%;}
+}
+@keyframes fillc{
+    0%{width: 0;}
+    100%{width: 18%;}
+}
