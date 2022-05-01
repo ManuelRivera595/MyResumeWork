@@ -6027,7 +6027,7 @@ section.u-image:not(.u-hover-box),
     min-width: 100%;
   }
   .u-layout-wrap:not(.u-layout-custom-xs) .u-layout {
-    margin-top: -80px;
+    margin-top: -20px;
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
