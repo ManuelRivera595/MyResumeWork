@@ -50,6 +50,9 @@
   margin: 30px auto 60px;
   padding: 0;
 }
+.pag-ref {
+  margin: 0;
+}
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-1 {
